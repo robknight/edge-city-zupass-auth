@@ -131,7 +131,7 @@ function getLabelFromTicket(ticketData: Partial<ITicketData>): string {
     return `You presented a badge: ${foundBadge[0]}`;
   }
 
-  return `Could not recognize either a ticekt or a badge`;
+  return `Could not recognize either a ticket or a badge`;
 }
 
 function App() {
